@@ -36,7 +36,6 @@ class JellyfinDistro:
             return f"{JELLYFIN_REPO}/files/ffmpeg/linux/{major}.x/{version}/{arch}/jellyfin-ffmpeg_{version}_portable_linux64-gpl.tar.xz"
         elif arch == "arm64":
             return f"{JELLYFIN_REPO}/files/ffmpeg/linux/{major}.x/{version}/{arch}/jellyfin-ffmpeg_{version}_portable_linuxarm64-gpl.tar.xz"
-        fi
 
     def ldap_url(self, version: str) -> str:
         return f"{JELLYFIN_REPO}/files/plugin/ldap-authentication/ldap-authentication_{version}.zip"

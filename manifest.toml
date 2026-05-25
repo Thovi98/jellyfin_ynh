@@ -7,7 +7,7 @@ name = "Jellyfin"
 description.en = "Media System that manage and stream your media"
 description.fr = "Système multimédia qui gère et diffuse vos médias"
 
-version = "10.11.9~ynh2"
+version = "10.11.10~ynh1"
 
 maintainers = ["tituspijean"]
 
@@ -58,10 +58,10 @@ ram.runtime = "100M"
 [resources]
 
     [resources.sources.main]
-    arm64.url = "https://repo.jellyfin.org/files/server/linux/stable/v10.11.9/arm64/jellyfin_10.11.9-arm64.tar.xz"
-    arm64.sha256 = "e1ca9131db228f973e6d5b0c1f9632e2ebedde83d23ef167e011fdcd52c8a044"
-    amd64.url = "https://repo.jellyfin.org/files/server/linux/stable/v10.11.9/amd64/jellyfin_10.11.9-amd64.tar.xz"
-    amd64.sha256 = "2726aa9d9d17ac25cac935ca8765bce8665db6e08e82cc905eaf33a61263631e"
+    arm64.url = "https://repo.jellyfin.org/files/server/linux/stable/v10.11.10/arm64/jellyfin_10.11.10-arm64.tar.xz"
+    arm64.sha256 = "8bc05732df7403e0a49481572cf3c04b59dacea5b3df1b7b15732f4c5058004b"
+    amd64.url = "https://repo.jellyfin.org/files/server/linux/stable/v10.11.10/amd64/jellyfin_10.11.10-amd64.tar.xz"
+    amd64.sha256 = "2e24125f12a412e130af33fea62573de43be77a0e0ae82818b73e87a289e5d93"
 
     format = "tar.xz"
     extract = true
@@ -69,10 +69,10 @@ ram.runtime = "100M"
     prefetch = false
 
     [resources.sources.main_archive]
-    arm64.url = "https://repo.jellyfin.org/archive/server/linux/stable/v10.11.9/arm64/jellyfin_10.11.9-arm64.tar.xz"
-    arm64.sha256 = "e1ca9131db228f973e6d5b0c1f9632e2ebedde83d23ef167e011fdcd52c8a044"
-    amd64.url = "https://repo.jellyfin.org/archive/server/linux/stable/v10.11.9/amd64/jellyfin_10.11.9-amd64.tar.xz"
-    amd64.sha256 = "2726aa9d9d17ac25cac935ca8765bce8665db6e08e82cc905eaf33a61263631e"
+    arm64.url = "https://repo.jellyfin.org/archive/server/linux/stable/v10.11.10/arm64/jellyfin_10.11.10-arm64.tar.xz"
+    arm64.sha256 = "8bc05732df7403e0a49481572cf3c04b59dacea5b3df1b7b15732f4c5058004b"
+    amd64.url = "https://repo.jellyfin.org/archive/server/linux/stable/v10.11.10/amd64/jellyfin_10.11.10-amd64.tar.xz"
+    amd64.sha256 = "2e24125f12a412e130af33fea62573de43be77a0e0ae82818b73e87a289e5d93"
 
     format = "tar.xz"
     extract = true
