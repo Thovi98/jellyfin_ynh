@@ -7,7 +7,7 @@ name = "Jellyfin"
 description.en = "Media System that manage and stream your media"
 description.fr = "Système multimédia qui gère et diffuse vos médias"
 
-version = "10.11.11~ynh1"
+version = "12.0-rc2~ynh1"
 
 maintainers = ["tituspijean"]
 
@@ -60,7 +60,7 @@ ram.runtime = "100M"
     [resources.sources.main]
     arm64.url = "https://repo.jellyfin.org/files/server/linux/stable/v10.11.11/arm64/jellyfin_10.11.11-arm64.tar.xz"
     arm64.sha256 = "2b0fa433548dbb81148218ea0cdf93f450d3db9049abf1e07c81bc5af9c79a92"
-    amd64.url = "https://repo.jellyfin.org/files/server/linux/stable/v10.11.11/amd64/jellyfin_10.11.11-amd64.tar.xz"
+    amd64.url = "https://repo.jellyfin.org/files/server/linux/latest-preview/amd64/jellyfin_12.0-rc2-amd64.tar.xz"
     amd64.sha256 = "7e94666f5ffa08f3110eb3456e24210a720c9d7a04ebb0a23b775155451c1631"
 
     format = "tar.xz"
@@ -72,7 +72,7 @@ ram.runtime = "100M"
     arm64.url = "https://repo.jellyfin.org/archive/server/linux/stable/v10.11.11/arm64/jellyfin_10.11.11-arm64.tar.xz"
     arm64.sha256 = "2b0fa433548dbb81148218ea0cdf93f450d3db9049abf1e07c81bc5af9c79a92"
     amd64.url = "https://repo.jellyfin.org/archive/server/linux/stable/v10.11.11/amd64/jellyfin_10.11.11-amd64.tar.xz"
-    amd64.sha256 = "7e94666f5ffa08f3110eb3456e24210a720c9d7a04ebb0a23b775155451c1631"
+    amd64.sha256 = "0bfbd1ec50372ad79ca0f76f91ca8ae01c00c61077142bae4a192b4bb076b3c4"
 
     format = "tar.xz"
     extract = true
@@ -82,16 +82,16 @@ ram.runtime = "100M"
     [resources.sources.ffmpeg]
     arm64.url = "https://repo.jellyfin.org/files/ffmpeg/linux/7.x/7.1.4-3/arm64/jellyfin-ffmpeg_7.1.4-3_portable_linuxarm64-gpl.tar.xz"
     arm64.sha256 = "77e4b5d044ab73e1f26c9aadaa5d6014d1782500bf2c29afb3ab81f5bea98b1f"
-    amd64.url = "https://repo.jellyfin.org/files/ffmpeg/linux/7.x/7.1.4-3/amd64/jellyfin-ffmpeg_7.1.4-3_portable_linux64-gpl.tar.xz"
-    amd64.sha256 = "cab9ff40a47e4232d231e4eb7e4e85fabfeec56c6905266bc94291fc0881f83f"
+    amd64.url = "https://github.com/jellyfin/jellyfin-ffmpeg/releases/download/v8.1.1-4/jellyfin-ffmpeg_8.1.1-4_portable_linux64-gpl.tar.xz"
+    amd64.sha256 = "ba1aa8f4093f648dad1d4ba984adab422a4dd14e94b00d05ac62595edad5616b"
 
     format = "tar.xz"
     extract = true
     in_subdir = false
 
     [resources.sources.plugin_ldap]
-    url = "https://repo.jellyfin.org/files/plugin/ldap-authentication/ldap-authentication_23.0.0.0.zip"
-    sha256 = "952e33fa8d3ac512ccb5c1e2e1c655cbb1957e41fa1f00bd6ccf3076e0467446"
+    url = "https://repo.jellyfin.org/files/plugin-unstable/ldap-authentication/ldap-authentication_23.2606.15.0.zip"
+    sha256 = "5414d3e37010b9b238b68691b19fb3e998c8d764cdb1c9d12a28653b6021313a"
     in_subdir = false
 
     [resources.system_user]
