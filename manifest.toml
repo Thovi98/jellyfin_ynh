@@ -61,7 +61,7 @@ ram.runtime = "100M"
     arm64.url = "https://repo.jellyfin.org/files/server/linux/stable/v10.11.11/arm64/jellyfin_10.11.11-arm64.tar.xz"
     arm64.sha256 = "2b0fa433548dbb81148218ea0cdf93f450d3db9049abf1e07c81bc5af9c79a92"
     amd64.url = "https://repo.jellyfin.org/files/server/linux/latest-preview/amd64/jellyfin_12.0-rc2-amd64.tar.xz"
-    amd64.sha256 = "7e94666f5ffa08f3110eb3456e24210a720c9d7a04ebb0a23b775155451c1631"
+    amd64.sha256 = "0bfbd1ec50372ad79ca0f76f91ca8ae01c00c61077142bae4a192b4bb076b3c4"
 
     format = "tar.xz"
     extract = true
